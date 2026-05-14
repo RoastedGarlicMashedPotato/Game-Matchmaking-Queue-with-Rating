@@ -61,7 +61,7 @@ public class MatchmakingQueue {
         }
         return Math.max(0, total);
     }
-    
+
     public long tryMatchAndRemove(long seekerId, long nowEpochMs) {
         QueuedPlayer seeker = players.get(seekerId);
         if (seeker == null) {

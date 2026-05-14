@@ -45,7 +45,6 @@ public final class RatingAvlTree {
         return Long.compare(id1, id2);
     }
 
-
     private static int height(Node n) {
         return n == null ? -1 : n.height;
     }
